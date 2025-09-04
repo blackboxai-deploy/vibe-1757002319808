@@ -1,0 +1,122 @@
+[
+  {
+    "id": "eval_001",
+    "type": "open-questions",
+    "studentId": "Alice_Dupont",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Expliquez le principe de fonctionnement de cette fonction",
+        "type": "open",
+        "difficulty": "medium",
+        "context": "Fonction de tri",
+        "category": "compréhension",
+        "language": "fr"
+      }
+    ],
+    "responses": ["Cette fonction utilise l'algorithme de tri par insertion pour organiser les éléments du tableau."],
+    "score": 85,
+    "maxScore": 100,
+    "startedAt": "2024-01-15T10:30:00.000Z",
+    "completedAt": "2024-01-15T10:45:00.000Z",
+    "feedback": "Excellente compréhension des concepts de tri. L'explication est claire et précise.",
+    "suggestions": ["Pourrait explorer d'autres algorithmes de tri", "Ajouter des exemples concrets"]
+  },
+  {
+    "id": "eval_002",
+    "type": "code-improvement", 
+    "studentId": "Bob_Martin",
+    "questions": [],
+    "responses": [],
+    "score": 72,
+    "maxScore": 100,
+    "startedAt": "2024-01-14T14:20:00.000Z",
+    "completedAt": "2024-01-14T14:35:00.000Z",
+    "feedback": "Code fonctionnel mais manque d'optimisation. Structure claire mais performance perfectible.",
+    "suggestions": ["Optimiser les boucles imbriquées", "Ajouter des commentaires", "Gérer les cas d'erreur"]
+  },
+  {
+    "id": "eval_003",
+    "type": "mcq",
+    "studentId": "Claire_Rousseau", 
+    "questions": [
+      {
+        "id": "mcq1",
+        "text": "Quelle est la complexité temporelle de la recherche binaire ?",
+        "type": "mcq",
+        "difficulty": "easy",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+        "correctAnswer": 1,
+        "category": "algorithmes",
+        "language": "fr"
+      }
+    ],
+    "responses": [1],
+    "score": 90,
+    "maxScore": 100,
+    "startedAt": "2024-01-13T16:00:00.000Z",
+    "completedAt": "2024-01-13T16:15:00.000Z",
+    "feedback": "Très bonne maîtrise des concepts algorithmiques fondamentaux.",
+    "suggestions": ["Continuer avec des algorithmes plus avancés"]
+  },
+  {
+    "id": "eval_004",
+    "type": "open-questions",
+    "studentId": "Alice_Dupont",
+    "questions": [
+      {
+        "id": "q2",
+        "text": "Comment optimiser cette boucle ?",
+        "type": "open", 
+        "difficulty": "hard",
+        "context": "Optimisation performance",
+        "category": "performance",
+        "language": "fr"
+      }
+    ],
+    "responses": ["On peut utiliser une HashMap pour éviter les recherches linéaires et réduire la complexité."],
+    "score": 92,
+    "maxScore": 100,
+    "startedAt": "2024-01-16T09:15:00.000Z",
+    "completedAt": "2024-01-16T09:30:00.000Z",
+    "feedback": "Excellente analyse de performance. Proposition d'optimisation pertinente.",
+    "suggestions": ["Explorer d'autres structures de données", "Analyser la complexité spatiale"]
+  },
+  {
+    "id": "eval_005",
+    "type": "mcq",
+    "studentId": "David_Leroy",
+    "questions": [
+      {
+        "id": "mcq2", 
+        "text": "Quel pattern de design permet de créer une seule instance d'une classe ?",
+        "type": "mcq",
+        "difficulty": "medium",
+        "options": ["Factory", "Singleton", "Observer", "Strategy"],
+        "correctAnswer": 1,
+        "category": "design-patterns",
+        "language": "fr"
+      }
+    ],
+    "responses": [0],
+    "score": 45,
+    "maxScore": 100,
+    "startedAt": "2024-01-12T11:30:00.000Z",
+    "completedAt": "2024-01-12T11:40:00.000Z",
+    "feedback": "Confusion entre les patterns de design. Révision nécessaire des concepts fondamentaux.",
+    "suggestions": ["Revoir les patterns de création", "Pratiquer avec des exemples concrets", "Étudier les cas d'usage de chaque pattern"]
+  },
+  {
+    "id": "eval_006",
+    "type": "code-improvement",
+    "studentId": "Eva_Moreau", 
+    "questions": [],
+    "responses": [],
+    "score": 88,
+    "maxScore": 100,
+    "startedAt": "2024-01-17T15:45:00.000Z",
+    "completedAt": "2024-01-17T16:00:00.000Z",
+    "feedback": "Code très bien structuré avec de bonnes pratiques. Utilisation appropriée des design patterns.",
+    "suggestions": ["Ajouter des tests unitaires", "Documenter les méthodes complexes"]
+  }
+]
